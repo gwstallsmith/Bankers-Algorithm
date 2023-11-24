@@ -32,18 +32,3 @@ This project contains a C++ implementation of the banker's algorithm, a deadlock
 
 ## Example
 Suppose you have 5 processes and 3 resources. You'll be prompted to input the allocation matrix and maximum matrix for processes and resources. The program will output whether the system is in a safe state and if so, demonstrate the order in which processes can complete their execution safely.
-
-```bash
-Number of processes: 5
-Number of resources: 3
-
-Enter allocation matrix:
-// Input allocation matrix
-
-Enter maximum matrix:
-// Input maximum matrix
-
-The system is in a safe state.
-
-Safe sequence: P1 -> P3 -> P4 -> P0 -> P2
-```
